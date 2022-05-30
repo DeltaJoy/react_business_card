@@ -1,13 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ---------------------Complete Page----------------- */
+
+.AppContainer {
+  height: 100vh;
+
+  padding: 0;
+  margin: 0 auto;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border: solid black 1px;
+}
+
+
+
+/* ---------------------Links----------------- */
+.lonks {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.lonks a{
+  padding: 5px 10px;
+  margin: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding-bottom: 1px;
+
+}
+.linkedIn {
+  background-color: #0077b5;
+  color: white;
+  border: solid 1px #0077b5;
+  
+}
+
+.linkedIn:hover {
+  background-color: white;
+  color: #0077b5;
+  border: solid 1px #0077b5;
+}
+
+
+.gitHub {
+  background-color: rgb(129, 56, 129);
+  color: white;
+  border: 1px solid rgb(129, 56, 129);
+
+}
+
+.gitHub:hover {
+  background-color: white;
+  color: rgb(129, 56, 129);
+}
+
+.gitIcon {
+  width: 25px;
+ 
+}
+
+.linkedIcon {
+  width: 25px;
+}
+
+/* ---------------------Headshot----------------- */
+
+
+img {
+  width: 325px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+h2, h4 {
+  margin: 0;
+}
+
+
+
+/* ---------------------Name----------------- */
+
+
+.name {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+/* ---------------------Links----------------- */
