@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+------------------------------------PERSONAL READ ME -------------------------------------
+
+
+My first React project. The purpose of this project was to get familiar with how React works. It was just a simple idea I saw online of making an easy static page. I learned about importing and exporting. I spent a good amount of time reading through documentation about importing and exporting. I also looked into how to use AwesomeFont icons. I still struggled to figure out what to install on my computer, but was able to use svg files to render images from the website. 
+
+The remainder of the project was a overview of CSS practice for styling diffeerent compenents and using different styling techniqiues I had learned in the past. 
