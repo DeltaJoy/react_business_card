@@ -5,13 +5,15 @@ import InfoLinks from './Links.js';
 import InfoParagraph from './Info.js';
 import MyName from './name.js';
 
+
 function App() {
   return (
     <div className="AppContainer">
       <HeadShot />
-      <MyName />
-      <InfoLinks />
+      {/* <MyName /> */}
       <InfoParagraph />
+      <InfoLinks />
+      
     </div>
   );
 }

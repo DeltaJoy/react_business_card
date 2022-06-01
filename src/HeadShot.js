@@ -3,9 +3,7 @@ import Im from "./images/headshotExample.jpg";
 
 function HeadShot() {
     return (
-        <div>
-            <img src={Im} />
-        </div>
+            <img className ="Head" src={Im} />
     )
 }
 
